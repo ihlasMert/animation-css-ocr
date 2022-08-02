@@ -1,0 +1,20 @@
+.btn {
+    background: green;
+    font-size: 3rem;
+    cursor: pointer;
+    padding: 1.85rem 3rem;
+    border-radius: 10rem;
+  
+}
+
+.ball {
+    width: 10px;
+    height: 13px;
+    background: yellow;
+    margin-bottom: 1rem;
+    border-radius:   0.5em;
+}
+
+.btn:hover + .ball{
+    transform: scale(1.15);
+}

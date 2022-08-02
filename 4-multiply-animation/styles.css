@@ -1,0 +1,29 @@
+:root {
+  --clr-primary-3: hsl(247, 87%, 50%);
+  --clr-primary-4: hsl(162, 61%, 57%);
+}
+
+.btn {
+  background-color: var(--clr-primary-3);
+  border: 4px solid --clr-primary-4;
+  text-align: center;
+  border-radius: 10rem;
+  cursor: pointer;
+  font-size: 1rem;
+  overflow: hidden;
+  height: 10px;
+  width: 30px;
+  padding: 1.85rem 3rem;
+  margin: 20px auto;
+  position: relative;
+  /*   transition: transform 450ms; */
+  position: relative;
+  /*   transition: all 450ms; */
+/*   transition-delay: 150ms; */
+  transition: transform 450ms, background-color 300ms;
+  transition-delay: 0, 150ms;
+}
+
+.btn:hover {
+  transform: scale(1.13);
+}
